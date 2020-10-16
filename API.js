@@ -8,11 +8,11 @@ const router = express.Router();
 //Database Credentials
 function execSQLQuery(sqlQry, res){
     const connection = mysql.createConnection({
-        host    :'sql10.freemysqlhosting.net',
-        port    :3306,
-        user    :'sql10343317',
-        password:'y3Tq3Zhbwb',
-        database:'sql10343317'
+        host    :'xxxxxxx',
+        port    :11111,
+        user    :'xxxxxxx',
+        password:'xxxxxxx',
+        database:'xxxxxxx'
     });
    
     connection.query(sqlQry, function(error, results, fields){
